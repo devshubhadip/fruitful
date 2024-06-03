@@ -61,6 +61,11 @@
 .content .hero_text p{
   width: 100%;
   }
+  .content{
+
+    top: unset;
+    bottom: 30px ;
+  }
  
 }
 
