@@ -48,7 +48,12 @@
  .menu{
   display: none !important;
  }
-
+.get_startedbtn{
+  width: 100%;
+}
+.content{
+  transform: translateX(-50%) !important;
+}
  
 }
 
