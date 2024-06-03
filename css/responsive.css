@@ -46,7 +46,7 @@
 
 @media only screen and (max-width: 600px) {
  .menu{
-  display: none !important;
+  display: none!important;
  }
 .get_startedbtn{
   width: 100%;
@@ -54,6 +54,13 @@
 .content{
   transform: translateX(-50%) !important;
 }
+.banner-text{
+  font-size: 14px;
+  
+}
+.content .hero_text p{
+  width: 100%;
+  }
  
 }
 
