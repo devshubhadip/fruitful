@@ -3,7 +3,20 @@
 }
 
 @media only screen and (max-width: 1200px) {
+  section.textpart .heading h1{
+    font-size:  2.5rem;
+    line-height: 32px;
+    transition: all 0.5s ease;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
 
+  section.textpart .heading span img{
+    width:60px;
+    transition: all 0.5s ease;
+
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -32,12 +45,62 @@
 
           }
 
+
+           /* new code added */
+           section.textpart .heading h1{
+            font-size:  2rem;
+            line-height: 38px;
+            transition: all 0.5s ease;
+          }
+
+          
+      section.textpart .heading{
+        position: relative;
+      }
+
+      section.textpart .heading span.box-one{
+          position: absolute;
+          top: -80px;
+          right: -30px;
+        }
+
+        section.textpart .heading span.box-two{
+          position: absolute;
+          bottom: -60px;
+          left: -30px;
+        } 
+
+        h1{
+          font-size: 2rem;
+        }
+
+        
+        section.partner .box_content .hide{
+          width:100%;
+        }
+
+        section.partner .box_content{
+          transform: translateY(70px);
+          transition: all 0.5s ease;
+        }
+      
+
+
 }
 
 
 @media only screen and (max-width: 768px) {
 
 
+  section.textpart .heading h1{
+    font-size:  1.8rem;
+    transition: all 0.5s ease;
+  }
+
+  section.partner .box_content{
+    transform: translateY(95px);
+    transition: all 0.5s ease;
+  }
 
   
 }
@@ -66,13 +129,30 @@
     top: unset;
     bottom: 30px ;
   }
+  section.partner .box{
+    transform: rotate(0deg);
+   }
+   .floating_image{
+    width: 100%;
+   }
  
 }
 
 
 @media only screen and (max-width:490px) {
  
+  section.partner .box_content{
+    transform: translateY(110px);
+  }
+    
 
+}
+
+@media only screen and (max-width:450px) {
+ 
+  section.partner .box_content{
+    transform: translateY(125px);
+  }
     
 
 }
