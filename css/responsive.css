@@ -1,5 +1,9 @@
 @media only screen and (max-width: 1400px) {
-
+  section.testimonial .testi-font{
+    font-size: 55px;
+    }
+    
+    
 }
 
 @media only screen and (max-width: 1200px) {
@@ -83,7 +87,51 @@
           transform: translateY(70px);
           transition: all 0.5s ease;
         }
-      
+
+        /* goals card */
+
+        .goals{                      
+          width: 200px;
+        }
+        .goals img{
+          height: 100px;
+          width: 80px;          
+        }
+        .goals.goal-item1{
+          left: 60px;
+          top: 0;
+          transform: rotate(7deg);
+        }
+        
+        .goals.goal-item2{
+          left: -70px;
+          top: 35%;
+          transform: rotate(-10deg);
+        }
+        
+        .goals.goal-item3{
+          left:  90px;
+          bottom: 0;
+          transform: rotate(-26deg);
+        }
+        
+        .goals.goal-item4{
+          right: 30px;
+          top: 0;
+          transform: rotate(7deg);
+        }
+        
+        .goals.goal-item5{
+          right: -75px;
+          top: 35%;
+          transform: rotate(-10deg);
+        }
+        
+        .goals.goal-item6{
+          right: 60px;
+          bottom: 0;
+          transform: rotate(-35deg);
+        }
 
 
 }
@@ -102,6 +150,60 @@
     transition: all 0.5s ease;
   }
 
+  section.testimonial .testi-font{
+    font-size: 40px;
+    }
+
+       /* goals card */
+
+       .goals{                      
+        width: 140px;
+      }
+      .goals img{
+        height: 100px;
+        width: 80px;          
+      }
+      .goals.goal-item1{
+        left: 0px;
+        top: 0;
+        transform: rotate(7deg);
+      }
+      
+      .goals.goal-item2{
+        left: 50%;
+        top: -50px;
+        transform: rotate(-10deg) translateX(-50%);
+      }
+      
+      .goals.goal-item3{
+        left:  0px;
+        bottom: 0;
+        transform: rotate(-26deg);
+      }
+      
+      .goals.goal-item4{
+        right: 0px;
+        top: 0;
+        transform: rotate(7deg);
+      }
+      
+      .goals.goal-item5{
+        right: 0px;
+        top: unset;
+        bottom: 0;
+        transform: translateX(-50%);
+        left: 50%;
+      }
+      
+      .goals.goal-item6{
+        right: 0px;
+        bottom: 0;
+        transform: rotate(25deg);
+      }
+
+      .goals p{
+        font-size: 13px !important;
+      }
   
 }
 
@@ -135,6 +237,11 @@
    .floating_image{
     width: 100%;
    }
+
+   section.testimonial .testi-font{
+    font-size: 30px;
+    }
+
  
 }
 

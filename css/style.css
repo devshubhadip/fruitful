@@ -6,6 +6,7 @@
   margin: 0;
   box-sizing: border-box;
   -webkit-font-smotthing: antialiased;
+  transition: all 0.8s ease;
 }
 
 html {
@@ -53,6 +54,9 @@ button {
 }
 li{
   list-style: disc;
+}
+.l-none{
+list-style: none !important;
 }
 
 .f-bold{
@@ -328,4 +332,108 @@ section.textpart .heading .second_image{
 }
 
 
+/* Testimonial */
+
+section.testimonial .testi-font{
+font-size: 65px;
+}
+
+section.testimonial .post img{
+  height: 100px;
+  width: 100px;
+  object-fit: fill;
+  border-radius: 50% ;
+}
+
+
+/* faq */
+section.faq .heading h2{
+
+}
+
+.accordion-item .accordion-button {
+  background-color: #f5f7fb;
+  cursor: pointer;
+  padding: 1.25rem 3rem;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 15px !important;
+  border: unset !important;
+}
+
+.accordion-body{
+  background-color: #f5f7fb;
+  padding:  0.25rem 3rem 1.25rem 3rem;
+}
+.accordion-button:not(.collapsed){
+  color: #000 !important;
+}
+.accordion-item{
+  margin-bottom: 10px;
+  border: unset !important;
+}
+
+.accordion-button:not(.collapsed){
+  border-radius: 15px 15px 0px 0px !important;
+}
+
+section.your-goals .container{
+  padding: 220px 0px 220px 0px !important;
+}
+
+.goals{
+  background-color: #eff7ff;
+  border-radius: 15px;
+  width: 200px;
+}
+.goals img{
+  height: 120px;
+  width: 100px;
+  object-fit: cover;
+}
+.goals.goal-item1{
+  position: absolute;
+  left: 220px;
+  top: 0;
+  transform: rotate(7deg);
+}
+
+.goals.goal-item2{
+  position: absolute;
+  left: 0;
+  top: 35%;
+  transform: rotate(-10deg);
+}
+
+.goals.goal-item3{
+  position: absolute;
+  left:  250px;
+  bottom: 0;
+  transform: rotate(-26deg);
+}
+
+.goals.goal-item4{
+  position: absolute;
+  right: 220px;
+  top: 0;
+  transform: rotate(7deg);
+}
+
+.goals.goal-item5{
+  position: absolute;
+  right: 0;
+  top: 35%;
+  transform: rotate(-10deg);
+}
+
+.goals.goal-item6{
+  position: absolute;
+  right:  250px;
+  bottom: 0;
+  transform: rotate(46deg);
+}
+
+.goals p{
+  font-weight: bold !important;
+}
 
